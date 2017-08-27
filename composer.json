@@ -1,0 +1,23 @@
+{
+    "name": "pls/data-structure",
+    "description": "PLS data structure specification",
+    "keywords": [
+        "PLS", "data structure", "structure"
+    ],
+    "homepage": "https://github.com/PHP-library-standards/data-structure",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHP Library Standards",
+            "homepage": "https://github.com/PHP-library-standards"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pls\\Data\\Structure\\": "src"
+        }
+    }
+}
